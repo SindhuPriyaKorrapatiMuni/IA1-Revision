@@ -17,7 +17,10 @@ int sum_n(int n)
 }
 void output(int n,int sum)
 {
-  printf("the sum of n numbers is %d",sum);
+  int j;
+  for(j=1;j<=n-1;j++)
+  printf("%d+",j);
+  printf("%d is %d",n,sum);
 }
 int main()
 {
